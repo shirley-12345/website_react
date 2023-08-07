@@ -1,6 +1,13 @@
 import React from "react";
+import HeroSection from "../components/HeroSection.js";
+import Cards from "./Cards.js";
 
 function Home() {
-  return <div>Home</div>;
+  return (
+    <>
+      <HeroSection />
+      <Cards />
+    </>
+  );
 }
 export default Home;

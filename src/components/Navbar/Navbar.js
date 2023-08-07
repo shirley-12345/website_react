@@ -35,6 +35,7 @@ const Navbar = () => {
               alignItems="right"
               size={50}
             />
+            <p>HKCamera</p>
           </Link>
 
           {/* ------------menu bar icon here------------ */}

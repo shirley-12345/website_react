@@ -2,8 +2,7 @@ import React from "react";
 import "./App.css";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 // import About from "./pages/About";
-import Products from "./pages/Products";
-// import Home from "./pages/Home";
+import Home from "./pages/Home.js";
 import Navbar from "./components/Navbar/Navbar.js";
 function App() {
   return (
@@ -11,9 +10,9 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" />
+          <Route path="/" element={<Home />} />
           {/* <Route path="/about" element={<About />} /> */}
-          <Route path="/products" element={<Products />} />
+          {/* <Route path="/products" element={<Products />} /> */}
         </Routes>
       </BrowserRouter>
     </>
