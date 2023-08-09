@@ -1,6 +1,8 @@
 import React from "react";
 
-function Products() {
-  return <div>Products</div>;
+export default function Products() {
+  return (
+    <h1 className="Products">Products</h1>
+  )
+
 }
-export default Products;

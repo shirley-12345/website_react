@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { IoCameraOutline } from "react-icons/io5";
 import { ImCross } from "react-icons/im";
 import { FaBars } from "react-icons/fa";
-import { Button } from "../Button";
+import { Button } from "../Button/Button";
 import './NavbarElement.css';
 
 const Navbar = () => {
@@ -80,7 +80,7 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {button && <Button buttonStyle='btn--outline'>SIGN IN</Button>}
         </div>
       </nav>
     </>
