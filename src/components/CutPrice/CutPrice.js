@@ -1,11 +1,11 @@
 import React from 'react'
-import CardItem from './CardItem'
-import './Cards.css'
+import CardItem from './CutPriceItem'
+import './CutPrice.css'
 
 function Cards() {
     return (
         <div className='cards'>
-            <h1>Check out these EPIC Destination!</h1>
+            <h1>Our Cut Price</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
